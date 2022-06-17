@@ -42,13 +42,13 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(12, 42)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(94, 15)
+        Me.Label1.Size = New System.Drawing.Size(134, 15)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Betriebsrichtung"
+        Me.Label1.Text = "Betriebsrichtung (00-36)"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(139, 39)
+        Me.TextBox1.Location = New System.Drawing.Point(161, 38)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 23)
         Me.TextBox1.TabIndex = 1
@@ -64,7 +64,7 @@ Partial Class Form1
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(139, 82)
+        Me.TextBox2.Location = New System.Drawing.Point(161, 81)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 23)
         Me.TextBox2.TabIndex = 3
@@ -80,7 +80,7 @@ Partial Class Form1
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(139, 125)
+        Me.TextBox3.Location = New System.Drawing.Point(161, 124)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 23)
         Me.TextBox3.TabIndex = 5
@@ -106,7 +106,8 @@ Partial Class Form1
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(139, 177)
+        Me.TextBox4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.TextBox4.Location = New System.Drawing.Point(161, 176)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 23)
         Me.TextBox4.TabIndex = 8
@@ -123,7 +124,7 @@ Partial Class Form1
         'TrackBar2
         '
         Me.TrackBar2.Location = New System.Drawing.Point(287, 125)
-        Me.TrackBar2.Maximum = 50
+        Me.TrackBar2.Maximum = 30
         Me.TrackBar2.Name = "TrackBar2"
         Me.TrackBar2.Size = New System.Drawing.Size(198, 45)
         Me.TrackBar2.TabIndex = 10
